@@ -1,0 +1,23 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.t1{
+    background-color: grey;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    padding: 10px;
+}
+
+.home{
+    font-size: 16px;
+    margin-right: 16px;
+}
+
+.lol:hover{
+    font-size: 20px;
+}
