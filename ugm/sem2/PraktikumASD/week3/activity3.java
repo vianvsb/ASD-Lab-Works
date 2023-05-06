@@ -30,7 +30,7 @@ public class activity3 {
     }
 
     public static String randomMessage(String name){
-        int message = (int) Math.random()*3; 
+        int message = (int) (Math.random()*3); 
         if(message == 0){
             return "Good Morning " + name; 
         }
@@ -43,7 +43,7 @@ public class activity3 {
     }
 
     public static String weatherForecast(){
-        int day = (int) Math.random()*3;
+        int day = (int) (Math.random()*3);
         String when; 
         if (day == 0){
             when = "today is "; 

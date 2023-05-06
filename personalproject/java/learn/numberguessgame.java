@@ -1,4 +1,4 @@
-package personalproject;
+package personalproject.java.learn;
 
 import java.util.Scanner;
 
@@ -9,10 +9,10 @@ import java.util.Scanner;
  * users have 3 tries
  */
 public class numberguessgame {
-    
+
     public static int randomNumberGenerator(){
-        int random = (int) Math.random()*3;
-        return random + 1; 
+        int random = (int) (Math.random()*3);
+        return random; 
     }
 
     public static void main(String[] args){
@@ -21,6 +21,7 @@ public class numberguessgame {
         int randomNumber; 
         Scanner scan = new Scanner(System.in);
 
+        
         while (guesses != 0){
             randomNumber = randomNumberGenerator();
             System.out.println("Guess the random number! - ");

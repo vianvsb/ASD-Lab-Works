@@ -1,4 +1,4 @@
-package personalproject; 
+package personalproject.java.learn; 
 
 public class persoalankemal {
     public static boolean sameAbsVal(int i, int j){

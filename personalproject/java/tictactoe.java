@@ -1,4 +1,4 @@
-package personalproject;
+package personalproject.java;
 import java.util.Scanner;
 
 public class tictactoe {
